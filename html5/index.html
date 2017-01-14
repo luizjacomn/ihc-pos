@@ -2,14 +2,46 @@
 <html>
 
 <head>
-  <title>Index</title>
+  <title>Calculadora</title>
   <meta charset="utf-8"/>
-  <!--<script type="text/javascript" src="app.js"></script>-->
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="app.js"></script>
 </head>
 
-<body>
-  <p id="paragrafo">Jôjôscript</p>
-  <button id="btn">Mudar cor</button>
+<body onload="piscando()">
+  <div align="center">
+  <h1>Calculadora</h1>
+
+  <form>
+    <table cellspacing="10">
+      <tbody>
+        <tr>
+          <td>
+            <label for="num">N° 01:</label>
+          </td>
+          <td>
+            <input id="num" type="number" placeholder="Insira o primeiro número" autofocus/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="ndois">N° 02:</label>
+          </td>
+          <td>
+            <input id="ndois" type="number" placeholder="Insira o segundo número"/>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+
+  <button id="btn" class="botao" onclick="somar()">Somar</button>
+
+  <hr/>
+
+  <p id="resultado"><span id="div" class="aparece">> </span></p>
+
+</div>
 </body>
 
 </html>

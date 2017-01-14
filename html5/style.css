@@ -1,0 +1,48 @@
+body {
+  background: #263238;
+  color: white;
+  margin: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+p {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Trebuchet MS';
+  color: aquamarine;
+  margin: 0 10px;
+}
+
+hr {
+  width: 30%;
+}
+
+.botao {
+  width: 15%;
+  margin: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: aquamarine;
+  color: black;
+  border: 0;
+  border-radius: 2px;
+}
+
+.botao:hover {
+  background:  #1DE9B6;
+}
+
+input[type='number'] {
+  border: 0;
+  height: 30px;
+  border-radius: 2px;
+  padding: 0 5px;
+  text-align: center;
+}
+
+.aparece {display: block;}
+.some {display: none;}
